@@ -1,8 +1,12 @@
-html, body {
-	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
-	font-weight: 400;
-}
-
-h1 {
-	text-align: center;
+.spl {
+  padding: 0 20px;
+  border-radius: 10px;
+  line-height: 5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 2rem;
+  color: white;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 50%;
+  position: absolute;
 }
