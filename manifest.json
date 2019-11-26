@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "version": "0.00001",
+    "name": "Chrome Extension Preact Component",
+    "short_name": "template-chrome-extension",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#673ab8",
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "https://*.bing.com/*"
+        ],
+        "css": [
+            "src/style.css"
+        ],
+        "js": [
+            "extension.js"
+        ]
+    }]
+}
