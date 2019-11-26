@@ -7,9 +7,9 @@
         "start": "per-env",
         "start:production": "npm run -s serve",
         "start:development": "npm run -s dev",
-        "build": "preact build --no-prerender",
-        "serve": "preact build --no-prerender && preact serve --no-prerender",
-        "dev": "preact watch --no-prerender",
+        "build": "preact build --no-prerender --no-sw",
+        "serve": "preact build --no-prerender  --no-sw && preact serve --no-prerender --no-sw",
+        "dev": "preact watch --no-prerender --no-sw",
         "lint": "tslint --project src",
         "test": "jest ./tests",
         "precommit": "lint-staged"
