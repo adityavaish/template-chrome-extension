@@ -15,7 +15,7 @@
             "https://*.bing.com/*"
         ],
         "css": [
-            "src/style.css"
+            "style.css"
         ],
         "js": [
             "extension.js"
